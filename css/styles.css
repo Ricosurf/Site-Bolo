@@ -1,0 +1,290 @@
+body{
+	width: 100%;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+}
+
+/*Navegação*/
+.header{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	padding: 8px;
+	background-color: #FFAB91;
+	text-align: center;
+	z-index: 2;
+	font-family: 'Dosis', sans-serif;
+}
+
+.header nav{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.header nav a{
+	font-size: 150%;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #fff;
+	transition: 1s;
+	font-weight: bold;
+	text-decoration-line: none;
+}
+
+.header nav a:hover{
+	color: #FF6F00;
+	transition: 1s;
+}
+
+
+.contato_header {
+	padding-top: 10px;
+}
+
+.header div p{
+ 	color: #fff;
+ 	text-align: center;
+ }
+
+.contato_header i{
+	color: #fff;
+	font-size: 24px;
+	transition: 1s;
+}
+
+.contato_header i:hover{
+	color: #FF6F00;
+	transition: 1s;
+}
+
+.header img{
+	width: 70%;
+}
+
+/*Divição entre as div*/
+
+.div_principais{
+	font-family: 'Dosis', sans-serif;
+	padding: 0;
+	margin: 0;
+	padding-top: 5%;
+	width: 100%;
+
+}
+
+.div_principais h2{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10%;
+}
+
+.screen_div{
+	height: 1024px;
+	width: auto;
+}
+
+.screen_div{
+	margin: auto;
+}
+
+
+/*Home*/
+
+.home_class{
+	height: 720px;
+}
+
+.home_class video{
+	width: 100%;
+	height: auto;
+}
+
+.home_class div div{
+	margin: 0;
+	padding: 0;
+}
+
+.home_titulo {
+	font-family: ‘Libre Baskerville’, serif;
+	position: absolute;
+	z-index: 1;
+	font-weight:100;
+	color: white;
+	padding: 2rem;
+	width: 100%;
+	height: auto;
+	font-size: 1.2rem;
+}
+
+.home_titulo h2{
+	font-family: ‘Libre Baskerville’, serif;
+	padding-top: 20px;
+}
+
+.home_titulo h1 {
+	text-align: center;
+	font-weight: bold;
+ 	font-size: 700%;
+  	margin-top: 2.5em;
+  	letter-spacing: 3rem;
+}
+
+/*Loja*/
+.loja_class{
+	height: auto;
+	background-color: #eee;
+}
+
+.loja_class div h2{
+	color: #000;
+}
+
+.loja_class div{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.loja_class div img{
+	width: 100%;
+}
+
+.loja_class div button{
+	border-color: #FFAB91;
+	background-color: #FFAB91;
+	margin-top: 10px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.loja_class div button:hover{
+	border-color: #FF7043;
+	background-color: #FF7043;
+}
+
+/*Sobre*/
+.sobre_class{
+	height: 760px;
+	background-image: url("imagens/bolo-de-chocolate-sem-farinha-n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.sobre_class p{
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+/*Contatos*/
+.contatos_class{
+	background-color: #eee;
+	height: auto;
+}
+
+
+.contatos_class div h2{
+	color: #000;
+}
+
+.contatos_class iframe{
+	width: 100%;
+	height: 570px;
+
+}
+
+.contatos_numero{
+	margin-top: 20px;
+}
+
+.contatos_class p{
+	font-size: 18px;
+	text-align: left;
+
+}
+
+.contatos_margin{
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+/*Rodapé*/
+.footer{
+	height: auto;
+	background-color:#FFAB91;
+}
+
+.footer div{
+	margin: auto;
+}
+
+.footer i{
+	color: #fff;
+	font-size: 36px;
+	padding-top: 10px;
+	margin-right: 50%;
+	margin-left: 50%;
+	transition: 1s;
+}
+
+.footer i:hover{
+	color: #FF6F00;
+	font-size: 36px;
+	transition: 1s;
+}
+
+.footer p{
+	color: #fff;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container_contatos {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .screen_div div {
+        margin: auto;
+    }
+}
